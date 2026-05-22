@@ -1,0 +1,76 @@
+background: #1a1f3e;
+    border: 1px solid #2d3561;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+.bot-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    background: #00000040;
+    border-radius: 12px;
+}
+
+.btn-bot {
+    background: #ff9800;
+    border: none;
+    color: #1a1a1a;
+    padding: 8px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-bot.running {
+    background: #f44336;
+    color: white;
+}
+
+.bot-log {
+    max-height: 200px;
+
+    overflow-y: auto;
+    font-size: 12px;
+    background: #00000040;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.bot-log ul {
+    list-style: none;
+    font-family: monospace;
+}
+
+.bot-log li {
+    padding: 4px 0;
+    border-bottom: 1px solid #2a2f4f;
+}
+
+.trades-history {
+    margin-top: 15px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.trades-history ul {
+    list-style: none;
+}
+
+.trades-history li {
+    background: #1a1f3e;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    color: #888;
+}
